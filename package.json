@@ -1,0 +1,67 @@
+{
+  "name": "html5",
+  "version": "1.0.0",
+  "description": "an app which automatically generates HTML5 files.",
+  "main": "www/bin",
+  "scripts": {
+    "start": "babel-node bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/answershuto/H5.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Vue.js",
+    "h5"
+  ],
+  "author": "Cao Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/answershuto/H5/issues"
+  },
+  "homepage": "https://github.com/answershuto/H5#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^0.26.1",
+    "ejs": "^2.5.5",
+    "express": "^4.13.4",
+    "express-session": "^1.14.2",
+    "fetch": "^1.1.0",
+    "file": "^0.2.2",
+    "formidable": "^1.1.1",
+    "fs": "0.0.1-security",
+    "js-cookie": "^2.1.3",
+    "less-loader": "^4.0.3",
+    "mongoose": "^4.7.5",
+    "muse-ui": "^2.0.0-beta.2",
+    "path": "^0.12.7",
+    "qr-image": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "vue": "^2.1.6",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^10.0.2",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.1.6",
+    "vuex": "^2.1.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "devDependencies": {
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "less": "^2.7.2"
+  }
+}
